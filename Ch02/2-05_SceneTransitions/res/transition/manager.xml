@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionManager xmlns:android="http://schemas.android.com/apk/res/android">
+    <transition
+        android:toScene="@layout/transition_step1"
+        android:transition="@transition/changebounds_fade_rev" />
+    <transition
+        android:toScene="@layout/transition_step2"
+        android:transition="@transition/changebounds_fade" />
+    <transition
+        android:toScene="@layout/transition_step3"
+        android:transition="@transition/changebounds_fade" />
+</transitionManager>
